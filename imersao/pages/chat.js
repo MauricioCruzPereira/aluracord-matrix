@@ -31,6 +31,7 @@ export default function ChatPage() {
         // }
     ]);
 
+    //recarrega apenas uma vez no site
     React.useEffect(() => {
         supabaseCliente
             .from('mensagens')
